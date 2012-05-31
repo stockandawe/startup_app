@@ -2,6 +2,30 @@
   <h1>Welcome to the Startup App</h1>
 </div>
 
-<div class="center">
-  <%= "Hello" %>
+<div class="row">
+  <div class="span10 offset1">
+    <form class="form-horizontal">
+       <fieldset>
+          <div class="control-group">
+            <label class="control-label wider" for="q1">How big is the market?</label>
+            <div class="controls">
+              <div class="input-prepend input-append">
+                <span class="add-on">$</span><input class="span2" id="a1" size="16" type="text"><span class="add-on">000,000,000</span>
+              </div>
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="q2">How many people have you spoken to who said they will use this?</label>
+            <div class="controls">
+              <input class="input-small" type="text" placeholder="(hint: > 1)">
+            </div>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Is my idea ready for a startup?</button>
+            <button class="btn">Cancel</button>
+          </div>
+      </fieldset>
+    </form>
+  </div>
 </div>
+
